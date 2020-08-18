@@ -110,6 +110,7 @@ module.exports = function(webpackEnv) {
               },
               stage: 3,
             }),
+            require('tailwindcss'),
             require('postcss-px-to-viewport')({
               viewportWidth: 1945,
               mediaQuery: true,
